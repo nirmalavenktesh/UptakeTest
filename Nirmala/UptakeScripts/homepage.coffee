@@ -44,6 +44,7 @@ describe 'Uptake', ->
    @homepage.get()   
    @homepage.goToLinkContactUs()
    expect(($ '.header__contact__container').isPresent()).toBe true
+   
 
     
     
